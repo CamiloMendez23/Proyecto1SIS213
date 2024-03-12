@@ -1,0 +1,74 @@
+body {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #21b3df;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    max-width: 100%;
+
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 3px;
+    margin-inline-end: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    background-color: rgb(233, 188, 41);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 3px solid #0e0909;
+}
+
+.task-content {
+    flex-grow: 1;
+    margin-left: 10px; 
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+button {
+    background-color: #93dd93;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 3px solid #0e0909;
+}
+
+button.complete {
+    background-color: #55aa55;
+}
+
+button.edit {
+    background-color: #aaaaff;
+}
+
+button.delete {
+    background-color: #e90e0e;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid #0e0909;
+    border-radius: 5px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
